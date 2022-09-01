@@ -1,0 +1,12 @@
+{
+  "extends": "expo/tsconfig.base",
+  "allowSyntheticDefaultImports": true,
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": false,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
